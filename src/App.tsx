@@ -4,7 +4,9 @@ function App() {
   return (
     <>
       <h1>Components:</h1>
-      <Button>Button</Button>
+      <Button variant="outline" size="sm" className="rounded">
+        Button
+      </Button>
     </>
   );
 }
